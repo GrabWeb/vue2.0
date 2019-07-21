@@ -1,12 +1,8 @@
 <template>
     <section class="profile">
-        <header class="header">
-            <a class="header_title">
-                <span class="header_title_text">我的</span>
-            </a>
-        </header>
+        <HeaderTop title="我的"/>
         <section class="profile-number">
-            <a href="javascript:" class="profile-link">
+            <router-link to="/login" class="profile-link">
                 <div class="profile_image">
                     <i class="iconfont icon-person"></i>
                 </div>
@@ -19,10 +15,11 @@
                         <span class="icon-mobile-number">暂无绑定手机号</span>
                     </p>
                 </div>
-            <span class="arrow">
-              <i class="iconfont icon-jiantou1"></i>
-            </span>
-            </a>
+                <span class="arrow">
+                    <i class="iconfont icon-jiantou1"></i>
+                </span>
+            </router-link>
+
         </section>
         <section class="profile_info_data border-1px">
             <ul class="info_data_list">
@@ -96,13 +93,20 @@
 </template>
 
 <script>
-    export default {}
+    import HeaderTop from '../../components/HeaderTop/HeaderTop.vue'
+
+    export default {
+        components: {
+            HeaderTop
+        }
+    }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
     @import '../../common/stylus/mixins.styl'
     .profile //我的
         width 100%
+        overflow hidden
         .header
             background-color #02a774
             position fixed
