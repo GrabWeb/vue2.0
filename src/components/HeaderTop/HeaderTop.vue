@@ -12,6 +12,10 @@
     export default {
         props:{
             title:String
+        },
+
+        computed: {
+
         }
     }
 </script>
