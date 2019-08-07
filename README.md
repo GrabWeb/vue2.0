@@ -48,20 +48,28 @@ npm run dev     //启动项目，默认8080端口。
 
 一个仿外卖的vue单页应用程序Web App（spa），包含常见的功能
 
+![img](https://github.com/GrabWeb/vue2.0/blob/master/img/1.png)
+
+![img](https://github.com/GrabWeb/vue2.0/blob/master/img/2.png)
+
+![img](https://github.com/GrabWeb/vue2.0/blob/master/img/3.png)
 
 # 技术选型与项目结构
 
 ## 技术选型
 
+![img](https://github.com/GrabWeb/vue2.0/blob/master/img/4.png)
 
 
 ## 路由
 
+![img](https://github.com/GrabWeb/vue2.0/blob/master/img/5.png)
 
 
 
 ## 项目结构
 
+![img](https://github.com/GrabWeb/vue2.0/blob/master/img/6.png)
 
 
 # 项目一些准备与说明
